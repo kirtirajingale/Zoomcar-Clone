@@ -1,0 +1,53 @@
+
+div {
+        text-align: center;
+        margin-right: 310px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-right: 220px;
+    }
+    h2 + p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: -10px;
+        margin-right: 70px;
+    }
+    div>div{
+        display: flex;
+        width: 50%;
+        margin-left: 400px;
+        border-bottom: 1px solid rgb(224,224,224);
+        font-size: 15px;
+    }
+    #fb{
+        margin-left: 20px;
+        color: grey;
+    }
+    div>div+div{
+        border:none;
+    }
+    div>div+div{
+        border:none;
+    }
+    div>div+div>p{
+        margin-left: 20px;
+        color: grey;
+    }
+
+    
+    /* @media all and (min-width:720px) and (max-width:1079px)
+    {
+  body{
+     
+  }
+  
+    } 
+  
+    @media all and (min-width:320px) and (max-width:719px)
+    {
+  body{
+     background-color: wheat;
+  }
+  
+    } */

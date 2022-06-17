@@ -1,0 +1,60 @@
+
+/* for entering View */
+
+p  {
+    width: 80%; 
+    height: 50px;
+    border: 1px solid #0ab30a; 
+    line-height: 0.1em;
+    color:  #0ab30a;
+    padding-left: 30px;
+    font-size: 13px;
+ } 
+ h3+p{
+    border: none;
+    color: grey;
+    margin-left:-30px;
+ }
+ p span { 
+     background:#fff; 
+     padding:0 10px;
+ }
+
+
+
+ /* for normal View */
+
+ /* h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+    h3 {
+   margin-bottom: 5px;
+ }
+input{
+width: 400px;
+height: 40px;
+padding-left: 20px;
+border: 1px transparent grey;
+ }
+   p{
+font-size: 13px;
+padding-bottom: 10px;
+color: grey;
+ } */
+
+ @media all and (min-width:720px) and (max-width:1079px)
+  {
+body{
+   background-color: wheat;
+ }
+
+} 
+
+  @media all and (min-width:320px) and (max-width:719px)
+  {
+body{
+   background-color: wheat;
+ }
+
+}
