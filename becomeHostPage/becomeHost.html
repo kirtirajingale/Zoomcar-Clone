@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="becomeHost.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/93363a83aa.js" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
 </head>
 <body>
     <div class="navigation">
@@ -51,72 +53,415 @@
             </li>
         </ul>
     </div>
+
+
+
     <div class="toggle"></div>
 
-    <div id="hostnavbar">
-        <div class="logo">
-            <img src="https://www.zoomcar.com/zap/subscribe/build/7f1998e5f3e2ea1ad605b2203aef2ac5.svg" alt="zoomcar_Logo">
-        </div>
-        <div class="pages">
-            <p>Contact Us</p>
-            <p>FAQs</p>
-            <p>Refer & Earn</p>
-            <p>Sign Up/Log In</p>
-            <button>START EARNING</button>
-        </div>
+<div id="hostnavbar">
+    <div class="logo">
+        <img src="https://www.zoomcar.com/zap/subscribe/build/7f1998e5f3e2ea1ad605b2203aef2ac5.svg" alt="zoomcar_Logo">
     </div>
-    <div id="whole-body">
-    <div id="banner" style="height: 350px;">
-            <h5>Share your car and earn upto ₹ 50,000 per month</h5>
-            <p>Get upto ₹ 10,000 on sign-up</p>
-            <button>START EARNING</button>
-    </div>
-
-    <video height="550px" controls>
-        <source src="https://www.zoomcar.com/zap/subscribe/build/64440836bb2a2ee19961407349dece57.mp4" type="video/mp4">
-    </video>
-
-    <div id="knowmore">
-         <img src="https://www.zoomcar.com/zap/subscribe/build/2a59620f522135d45def6fbc74162966.webp" alt="knowmore">
-         <img src="" alt="">
-    </div>
-
-    <div class="header">
-        <h1>3 Simple steps to Start Earning With your car in 24 hours</h1>
-    </div>
-
-    <div id="first-box">
-            <div class="cards">
-                <div>
-                    <h4>1. Sign Up for Free!</h4>
-                    <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
-                </div>
-                <div>
-                    <img src="https://www.zoomcar.com/zap/subscribe/build/bb6776beb9b8bacdc711e5a43f401134.svg" alt="zoomcar_lable">
-                </div>
-            </div>
-            <div class="cards-2">
-                <div>
-                    <img src="https://www.zoomcar.com/zap/subscribe/build/29d798d8bc5d57bf22445ed3cc67cff1.svg" alt="zoomcar_lable">
-                </div>
-                <div>
-                    <h4>2. Get your Car Health Checked!</h4>
-                    <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
-                </div>
-                
-            </div>
-            <div class="cards-3">
-                <div>
-                    <h4>3. Share and Earn</h4>
-                    <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
-                </div>
-                <div>
-                    <img src="https://www.zoomcar.com/zap/subscribe/build/fc0cb48e9b85b44423a6660ba79ad43e.svg" alt="zoomcar_lable">
-                </div>
-            </div>
-            </div>  
+    <div class="pages">
+        <p>Contact Us</p>
+        <p>FAQs</p>
+        <p>Refer & Earn</p>
+        <p>Sign Up/Log In</p>
+        <button>START EARNING</button>
     </div>
 </div>
+
+
+    <div id="whole-body">
+        <div id="banner" style="height: 350px;">
+                <h5>Share your car and earn upto ₹ 50,000 per month</h5>
+                <p>Get upto ₹ 10,000 on sign-up</p>
+                <button>START EARNING</button>
+        </div>
+    
+        <video id="video1"  height="550px" controls    loop autoplay="autoplay">
+            <source src="https://www.zoomcar.com/zap/subscribe/build/64440836bb2a2ee19961407349dece57.mp4" type="video/mp4">
+        </video>
+    
+        <div id="knowmore">
+            <img src="https://www.zoomcar.com/zap/subscribe/build/2a59620f522135d45def6fbc74162966.webp" alt="knowmore">
+            <img src="" alt="">
+        </div>
+    
+        <div class="header">
+            <h1>3 Simple steps to Start Earning With your car in 24 hours</h1>
+    </div>
+    <div id="first-box">
+        <div class="cards">
+            <div>
+                <h4>1. Sign Up for Free!</h4>
+                <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/bb6776beb9b8bacdc711e5a43f401134.svg" alt="zoomcar_lable">
+            </div>
+        </div>
+        <div class="cards-2">
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/29d798d8bc5d57bf22445ed3cc67cff1.svg" alt="zoomcar_lable">
+            </div>
+            <div>
+                <h4>2. Get your Car Health Checked!</h4>
+                <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
+            </div>
+            
+        </div>
+        <div class="cards-3">
+            <div>
+                <h4>3. Share and Earn</h4>
+                <p>Become a part of zoomcar Host program for absolutely free by filling up a short form after sign-up. It takes less than 2 mins to fill the form. No hidden charges</p>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/fc0cb48e9b85b44423a6660ba79ad43e.svg" alt="zoomcar_lable">
+            </div>
+        </div>
+        </div>  
+</div>
+
+
+
+
+
+
+    <div id="mainpage">
+        <article class="slide-wrap">
+            <h1>How we protect your car</h1>
+            <button class="left-button" onclick="scrollleft()">
+                <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
+            </button>
+            <button class="right-button" onclick="scrollright()">
+                <img src="https://www.zoomcar.com/zap/subscribe/build/476d1c0d1627b70efd71a86adcd4bdde.svg" alt="">
+            </button>
+            <div class="protect-car-items">
+                <div class="protect-car-imgs" id="outsider">
+                    <div class="img-box-wrap">
+                        <img class="protect-imgs" src="https://www.zoomcar.com/zap/subscribe/build/e2bfa54a9b46567921c3f14e1276c68e.svg" alt="">
+                        <h3>We cover major damage & repair</h3>
+                        <p>Zoomcar provides damage cover and repair handling in case of an unlikely incident of any accident incurred by a guest during the sharing period/when your car is serving a booking.</p>
+                        <a href="becomehost.html">Know More</a>
+                    </div>
+
+                    <div class="img-box-wrap">
+                        <img class="protect-imgs" src="https://www.zoomcar.com/zap/subscribe/build/1f4b5b69d928bbf104735bdea4914f79.svg" alt="">
+                        <h3>Your Car Stays in Safe Hands!</h3>
+                        <p>All our renters are verified individuals with valid Driving license, and have excellent driving stats in the past on our platform. We have complete contact and address details of all our renters.</p>
+                    </div>
+                    <div class="img-box-wrap">
+                        <img class="protect-imgs" src="https://www.zoomcar.com/zap/subscribe/build/eb002ff59dd838a60fd664d21539d877.svg" alt="">
+                        <h3>Your Car Stays in Safe Hands!</h3>
+                        <p>Zoomcar provides damage cover and repair handling in case of an unlikely incident of any accident incurred by a guest during the sharing period/when your car is serving a booking.</p>
+                    </div>
+                    <div class="img-box-wrap">
+                        <img class="protect-imgs" src="https://www.zoomcar.com/zap/subscribe/build/584189ee6116aeef9f0bfad788813be1.svg" alt="">
+                        <h3>Flexibility in sharing</h3>
+                        <p>Share your car whenever you want, as per your usage and convenience</p>
+                    </div>
+                    <div class="img-box-wrap">
+                        <img class="protect-imgs" src="https://www.zoomcar.com/zap/subscribe/build/a0073dafcc39c09bcf084add77f94472.svg" alt="">
+                        <h3>24 x 7 customer support</h3>
+                        <p>Call us, Chat with us, drop an Email to us, we've got your back round the clock!</p>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+        <h1 class="growing">Growing rapidly</h1>
+        <p class="growing-p">Join Host program and be part of the largest tech enabled car sharing marketplace.</p>   
+        <section>
+            <div class="line">
+                <img class="gowing-img" src="https://www.zoomcar.com/zap/subscribe/build/e3a6d127cac35a3a7a139256bb3761eb.png" alt="">
+                <h5>25,000+</h5>
+                <p>Satisfied hosts</p>
+            </div>
+            <div class="line">
+                <img class="gowing-img" src="https://www.zoomcar.com/zap/subscribe/build/4a5f55fc81b9a6df6a460a025fdfa509.png" alt="">
+                <h5>50lakhs+</h5>
+                <p>Booking served</p>
+            </div>
+            <div class="line">
+                <img class="gowing-img" src="https://www.zoomcar.com/zap/subscribe/build/36da13bf403485c4efacd507efd93735.png" alt="">
+                <h5>32Cr+</h5>
+                <p>KMs Run</p>
+            </div>
+            <div class="line">
+                <img class="gowing-img" src="https://www.zoomcar.com/zap/subscribe/build/c0db9479a08980b830b63433f60d336c.png" alt="">
+                <h5>300Cr+</h5>
+                <p>Earned by hosts</p>
+            </div>
+        </section>
+        <div id="calculation">
+            <h1>Share your <span>XUV 500 <i lass="z-chevron_down amigo-home__icon--calculation"></i></span></h1>
+            <h1>and earn up to <span>49,980</span>per month </h1>
+
+            <button class="calculate" id="trigger">CALCULATE EARNING</button><br>
+        <div class="m_wrapper" id="wrapper">
+            <div class="modal-container">
+                <button class="close">&times;</button>
+                <p>EARN UPTO</p>
+                <h2><span id="amount">51,646</span>/month</h2>
+
+                <div>
+                    <select id="company" class="form-control_form-control-lg" onchange="getCompanyOptions(this)">
+                        <!-- <option>Mahindra</option>
+                        <option>Tata</option>
+                        <option>Honda</option>
+                        <option>Hyundai</option>
+                        <option>Datsun</option>
+                        <option>Ford</option>
+                        <option>Toyota</option>
+                        <option>Volkswagan</option> -->
+                    </select>
+                    <select id="model" class="form-control_form-control-lg" onchange="setAmount(this)">
+                        <!-- <option>XUV 500</option>
+                        <option>TUV 300</option>
+                        <option>KUV 100</option>
+                        <option>Hyundai</option>
+                        <option>Marazzo </option>
+                        <option>Scorpio</option>
+                        <option>XUV 500 AT</option> -->
+                    </select>
+                </div>
+                    
+
+                <div class="models">
+                    <div class="models-container">
+                        <button class="btn1" onclick="selectModel(this)">XUV_500</button>
+                        <button class="btn1" onclick="selectModel(this)">Baleno</button>
+                        <button class="btn1" onclick="selectModel(this)">Tiago</button>
+                        <button class="btn1" onclick="selectModel(this)">Swift</button>
+                        <button class="btn1" onclick="selectModel(this)">Drizer(Petrol)</button>
+                        <button class="btn1" onclick="selectModel(this)">Kwid</button>
+                        <button class="btn1" onclick="selectModel(this)">Celerio</button>
+                        <button class="btn1" onclick="selectModel(this)">Amaze</button>
+                        <button class="btn1" onclick="selectModel(this)">Grand_i10</button>
+                        <button class="btn1" onclick="selectModel(this)">Ertiga</button>
+
+                    </div>
+                </div>
+                <div>
+                    
+                    
+                    <input id="slider" type="range" value="24" min="1" max="31" oninput="this.nextElementSibling.value = this.value">
+                    <output>24 </output>
+                    <output><span>Days of earning</span> </output>
+                </div>
+            </div>
+        </div>
+
+        <p id="trigger2">How do we etimate your earning?</p>
+        
+        <div class="m_wrapper2">
+            <div class="modal-container2">
+                <button class="close2">&times;</button>
+                <h1>How do we estimate your earning?</h1>
+                <div class="estimate_para1">
+                    <diV><img class="imgpara1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAACEhIT7+/tAQEDPz8+UlJTg4OAzMzP39/fp6en8/Pzi4uL4+Pjy8vJzc3PZ2dm5ubm1tbXHx8dnZ2ecnJx7e3tMTEwSEhJRUVGvr68rKyvW1ta+vr6KioqWlpZdXV2kpKQjIyMcHBxra2tfX185OTlFRUV3d3cYGBgLCwswMDDhyD24AAAO/ElEQVR4nO1d2ZaqOhA9qEiLgCiCgorg3Pb//991SAKBUAlj8C73owzWhqRSY/j3r2MMB7/K0uj6X7vESHlCly1Ge9i9CCoD2XK0h/DN8CpbjvYweDMcyZajPXwZfj6+DD8fX4afjy/Dz8eX4efjy/Dz8X9hOAncxZB5BGbouPFn+Mba+kFiw5QVZLh8Hpq3KlpD+Hmx8FmHIIau8ikRDuMtqWIxjkEMV+9jQcviNQAVMdQYxwCGw7/3sXHb8tVHVYY/X4a9wZfhl2Hb8tXHl+GXYdvy1ceX4Zdh2/LVx5fhl2Hb8tXHl+HnM9QRwwnjWPw+dGZd57+PfYCPj8IRS9YhxJ4Zbgrex1jBj75BfxbN+KxXiMpNCgbiawg7LQrWHKZOrBYdsxZxYUmUFs8/4Q1+8cUXX/QAU9kCtATTdmLvFPmr0ejqR8ubu1P/RyuDNR9c1koem2XAMl4/Dfb4wiCX4OawrZ8PgcGh98J9VmgB9R1qxKf3xiVmZ8X7jfmfKL8X9p82WHcCwzMD15QtdAnYzPF5Od+8MByHg9vpytStH1Gm8EKYE/66n+uT9FpvWk68zJ0WfUCdwgPbIy32YVDo1truKMPxE4IYLi3yjbMUaO4Pdf6y76bO5Ey9vlhA3qHjU9fY7UtZA8YhLexC9LLtqtJlEqCm5Ly7Za500mO1vzHTXUrKU9n5FKcu9loRrz4WKRl35S83rin91Lx0DWCeCBhVU4jjflN0GphHzp3co389iluxETqxQbNF35C7lFJUHUBPDE1oPXuqkyXkKU1GQg9KAhJXAupjfuvLCLxTYrT3KsQxw1KtwUbtC/8tkzSbovz1yGVM1CgoPB7KHC+JDNT+KFSdEITNbMyQY5ZZxPTrzVQkU4fj+wi+Q1Iqzk4kSwAZozxjy0IMY94difk3a0jEmsDiXOCA/TQgHsRlz3HmPbFh3xFIzAJUo9OMZzyDDTu8+vShgYioGdAIsfOxRXA22kJndQM8oC7QSfMcvwdC6Ao8Mg7NSlsB5BVCM4ZJENZME2wGSvf4B3heAeeobILwwMbe5qZpiUtigoUFjMhhOrx42KQpboFb43VfcolNIPAKkwCxv7MmE0u9kR9WwGV4aDNrxLoDfiPAK0xsOmKEGT+5n4B7Sw2EY7+X2W2IQGITqfVy6AtcGAvM1taBByAwV6YX1jnWL/8FWSimIXVLIjTa1sAp2Iw+0T/jCQwZ66f8y+8a2PKA1m6s9bNqE/0M+YA4uMW11NsDtjUhvxcN5E3WEUIuF2gK3fkat2WgNMwflL31ClQKejq/0P1xcKS2oFWBLSvQi0MMo+zvSFPeoWvxkijNh9KQAGCwYVCgEJEpx6yWxrBkT0T0GuCwH56ruWXhLKAnkb0nzazBSgQ8CZvdOR9hOL4rEScdiob4Ty0xa2BVoEQoYKOtko+ABsBdVuobyQ56skkkrkpSEK+IsjLfReOPBnF/9+X/AQ8AScoU/z3PgSPuYVTa/LLEHmJbwI4FbwilMotXd7FTLfHyrgnyoCS5F1hyrv82U2jclwvBYPYU5TAk5UvxBONWTprZyidFOQpOSr+6lmoAmCH/TItRiXmAYjQESBFLykIthBn+G7KKFUVsMVTdJyl/UYIhXS6DIaA/zlIZio/SJ/RBniI/ZB9JnYc4ByZsUu28v0zlLHeBRFVEknQp1PFbCEu3F0ktYsQ520QqqoI51ARwjKm8SeWQV8m5FofbJBXWToVnUw46DtlzPD9stcmK7IurxBxIqh6exNgwFFo7W8BF6D38G9p23kjDrj9sU8foLFmBfZRh4Xjg6kNbHHOhHJy0grWkUBShRRSGYNJAPlbOAUEKFU7UI4MWjiK0CLxcgAoRJWZyVgn6/Qj+A/oDaWXRWNOBYYw68VLsn8lLkqJQFBh1HxScEwq8Q5zakteDgU1NaCLu0bvKSjkSeDoHyYommYiQH4RHWkab4iAPNMLxaiixOwHnOaEcJqaSOQe/fsggwoNUZukXbj+DfIQV602QAhQgKjVEYaijzAZ3PAShdRtne9PmM6l7h1zbncDN2weWFIidTYkj4SFtM43xL6DB6Quc0z7wdIKsb/ISlfts56hOmBQNQa8Qp9AllydiH+EXWrKo7rs0wIwLvkp20yXuN4S8cGtTwBBSkniq3mU3QBOlCK36BquxmeM64z4v+a16eDEAA376gUEQtDZJI5z8YnbyEuF12cvyW4E+Fw7QyIpBUcDh7AOcv9hSzelXTnAHl0OBGqwrkJALL2xr4Bq+S8hb4khWVbYifYMEs3lBN0uwoyQp2OxDqf4DQ6JGOLlS0Z4Z80fwhp2BJHmPsOIT7Hsi9jyvBqJDEEUJl4LiUcpp2CKjHqzq6xgkAwpHxdAqDudjkn7nPn10NqnljqDTHAGduye36kG7TArJZgM+5K86V+UAJwGSwv6+dXMnjVsXcJE2YYc9KduQFgUuRJLivVd2Wa1kB5A+flE3VTVT0RJRk+YaeCDIwimhuKziEaQ2jdj0kiDJRVVThFqqrOhHvstUgPQWWFGp9P4kXanhy3brAcQpORVPOK9pxukgQE/amwvgKBRHIatk6FK7g/Vty48srCvF0Xd4AWub9v5/e9G9DWNMSaysveK9WE17n9l9sPebmb2wze6ZeDzHeZamvZjlShalN/2Kws1K/sAmCoPFTn3AmQfj5c89fwqnR79XsLJlwQJYdePQW/P48aQd1X5A0wxd1y1rUiW7ZZz4nNLwO8rVO9mxc18fD5ufy+h6XfnReXmKxa0Ng1FuWYSoKw2q82UpU55kxj/8+z2e4ri7kqdYQJ5y7Y7aOF/FTmHjdboAjmFp3ij7wPVgVvAqf0+u3bEJmt88lgGGRW3phqEDqn5qOfHAT8/x0c3d6RIMbCGG6bZ6fbFfptJKdz+Mt5DcvEfROoQY4lFqBEt2WnAV9nfPfFyhZT3WwcfTtlVnN18Esbsfh2GIckzrF0NtD2qQw6mnn8RBTjo7zIVyls98125VTA7jyNsLSgqQHRIxD8bo9ehBEaksxNzDToHKDtj91YjhmpWwLsKsV3sf/iMFHifmQZbDwMetX2MVTS92p9ieyeB+OcXBw1RX1d08Hqx+82fMWvMZrLk7i/xlGIj/A9jPmDd4DstFLrytO15Oy172jGL9urDidLxE1PZD1hU7MZldLD21SGwjG5t4PIzzIFDVra09V/wSbbJF0AdZL8gX4ohql9hFOhTDwwKuvFAB9/C+/n24ZE+f7OGRLU+3QTh248VcFedtMB1skSgkmkXseF6K4VVgPddvLClArAeOyLdK7HPR9fzVCZ3JLmomDu1GcFvRChyVdcjTveC3XbhZL3QeO3WE45pj8dGkVeCoDCCttLvCF/PWX3QaO6uCxn4kzO8JS8iYz6BwjCxy4ce/6ExxPnKGOcgQ1YCU3klFvZX7po5SsCBPgqwrc0bqQBsnR8D9bghD9jNE459t8ICYagsvKqoxZWKVG6mWm/n0CWURWknUC1aCIENk0lXNDJnWw/3F/ljsPjyycejNlpF/vWyOufDwiKZohdkzBhmNFOMDYP5/CD4GNN7baqueqNT3WEapIK2eK90Ms++YEFQ2YIwBZIjslDaLQLaplZxMKDu7vB/cLD8tpW3AEgd4Nxg0kdqtNUtldd5r1ja7vG+C3BylfAIwuQM3Z6OZ3nLR7jRZQh8zzckGEw55PW9TsUo4v4o7HNiWAZrrre8sRnyYk5M14Fd5HTikFtwrZ8WHt9ShBk+bKMp3sJIbDrUIcZ8+LkpnG7Ai47wZMONcJ8bIMimrcMU3vOFNg9DBDioGGQmiGUv6HbVIigwueCuP7hjmwgnZ5f0Fiyr+PwsFoTFDtnGPDnbxRQaL4sdOvlExzbXgc8c9AMyc77RDhukqQHZOVqe6xU6iYSBw0yC8CUKtcL3tqFtNtyaTiWmaw+G0KH+ONcJfweSK0/wO4iIFEEPR/ecAaPT6tj5ufl6hmpnneYNXtAYVEWh4ZWYTtCllG5b4SqsQw+opWzPr//DBNPMpPfRTSh787pkH8Xas1XtW099lE0SUv8uWMtJK9u6BDEX3ECwGO2gOIufsTSmDZ1Q29YMyE+zduSvtCkVhp5RGliFtpJWvYgS3G8HqrUbGjFOWwQAdUDApT9GvkPMB97sR3geyGJP893E5oKYEPQYqeQAoWMBuNyq9OxsLE0Ozt8/iPcfZLYJ4Pw6922x5jnzfX10vP5vDMR1PoywVnXo8Fas00SBgxwGwwdNeich0OLGsVwGBoWnaVt2mWVQy0nJA2RQwjS9nf3SdCuWX/sYpAQqJRMyDoDnQMuI0v2MNqwpZs+ywsTyGGmWkDepME3Qndsw3lsWQMtI29bYBQesVO+YriSH9sa+6oUwwyS2FoVkqksYHmORGViX4PYqmUddIy+EI3Qk9zQ6/g2ZS6Qq/iQKrNcQQGfVkk0R97nrn82kcb1vaxqkBIy0HMKqNQpPvXQ60cXr8nF2jhJ8thkaMtBwUiCEyeJ5l3mq+GOIy2zVaUxqkQ6H3xqJfIEP0TKN/RlGxx8htas+qipE0PsAhjyxDP5etpDBbNPAq4/QdS0TSuDDRPdmZCYGi2TdW4bYWS40qrqhlpGWBI81s14RTyELhcA4q63bKSPtrthkDxwvZ8zpXjPdYOaLzlV3M/mQZVhletSJpXMAx30xRzHqAHq8+XxYWkixjo9RiaVKRtFXjBcZwkpsufh6np5pp7wuLzUaeIxzZKZnuLA84yZ0OWDO6tK1dsZJdxSJB1vqRNC7I9uDDV9pkSA+wVGFV0Z8bwYrRGfrGbA4r2EzDczu5dPqjtuvj5lnien7nTUKi4iJwWbcYRdDktRQVQ0/tPa2p2+p3LvxsbxoC6s2IC+Oim9Pcpk3Yib2YZdT0urUUpcOWiobY8Jmq48K2jPvf2XODJ1wv2uSH9ay9eGWDDJ/Q56cyzScImzYbpgz+/5csVDC348K9S9kok+6sAJG0Qmklbs1hWz0NWIs1AX5ZdrXKRDsWsGr5RexNwHrmTZwH5os43ocD73Z65U1W19EzbzKqbmc8lhGGZUuwuclvWJyak7qrlBYw58F9uQdbaz8LQ30Xh9HosL4r9/Xhugxjx2pTufwH7tbEYaL1b98AAAAASUVORK5CYII=" alt=""></diV>
+                    <diV><p>Earning potential is calculated on the assumption your car is on bookings 60% of your sharing time.</p></diV>
+                </div>
+                <div class="estimate_para2">
+                    <diV><img class="imgpara1" src="data:image/png;base64,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" alt=""></diV>
+                    <diV>You may use the calculator to explore more about the car and the earning potential by selecting the variant of your choice</diV>
+                </div>
+                <div class="estimate_para3">
+                    <diV><img class="imgpara1" src="https://www.zoomcar.com/zap/subscribe/build/07206310f710bb74faa4389cf505adaf.svg" alt=""></diV>
+                    <div><p>View Earning Calculator</p></div>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+
+        </div>
+        <div class="refer-box">
+            <div class="content-box">
+                <div>
+                    <h1>You earn 7500/-</h1>
+                    <h1>your friend Gets upto 10000/-</h1>
+                    <h3>You Both Win</h3>
+                        <br>
+                    <button id="trigger3">REFER AND EARN</button>
+                    <br><br>
+                </div>
+                <div>
+                    <P>
+                        This opportunity is for your friends in Bangalore, Pune, Delhi NCR, Mumbai, Chennai, Hyderabad, Chandigarh, Kolkata, Ahmedabad, Coimbatore, Indore, Jaipur, Mangalore, Mysore, Vizag, Goa, Nagpur, Kochi, Vijayawada, Siliguri, Bhopal, Lucknow, Guwahati, Bhubaneswar, Vadodara, Nashik, Trichy & Madurai <br>
+                         Refer multiple friends to earn upto ₹ 1 Lakh.
+                    </P>
+                </div>
+                <div class="logos">
+                    <img id="trigger4" src="https://www.zoomcar.com/zap/subscribe/build/47754324065ada140c6a81b3f2157554.svg" alt="">
+                    <img id="trigger5" src="https://www.zoomcar.com/zap/subscribe/build/e6260c611d231d47cb00c13920f5eb27.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <h2 class="rating-heading">Users love Zoomcar Host program. Our app has 4.5+ rating on play store!</h2>
+        <video  loop muted autoplay="autoplay">
+            <source type="video/mp4" src="https://www.zoomcar.com/zap/subscribe/build/993b9e144e89da0b2a0df580e13a2cbe.mp4">
+        </video>
+        <div class="review">
+            <div>
+                <h3>What are the host users saying?</h3>
+                <p>10,000+ hosts are earning average of ₹ 50,000 per month</p>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/3f72230754b1fb30e311c9f78848ee62.png" alt="">
+                <p>I always dreamt of owning a car in which I can take my family for a drive, But, due to high           EMIs, I couldn't afford a car. With host program, I reduced my EMI by sharing the car on weekdays and           take my family out on weekends. I am happy that I could finally realise my dream, thanks to host.</p>
+                <h6>Gajendra Tomar, Age 38 Govt School Teacher, Pune</h6>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/bd8cb705e0b100c897e16bbfff2a275f.png" alt="">
+                <p>I am an environmentally conscious person. I saw a wonderful opportunity to do something for           congested roads and the environment with host program. Sharing my second car on host helps me to           reduce traffic and reduce my carbon footprint. And yes, additional earning through my second car is cherry on the cake :)</p>
+                <h6>Srikanth Venkatesh, Age 43
+                    VP in an IT Company, Hyderabad </h6>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/5c4df7d7677b23ee3d6c5e32e964303e.png" alt="">
+                <p>I always dreamt of owning a car in which I can take my family for a drive, But, due to high           EMIs, I couldn't afford a car. With host program, I reduced my EMI by sharing the car on weekdays and           take my family out on weekends. I am happy that I could finally realise my dream, thanks to host.</p>
+                <h6>Archana Sundaram, Age 55 Housewife, Hyderabad</h6>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/9f1be46d5b847adf8089338ebb6d89d8.png" alt="">
+                <p>I always dreamt of owning a car in which I can take my family for a drive, But, due to high           EMIs, I couldn't afford a car. With host program, I reduced my EMI by sharing the car on weekdays and           take my family out on weekends. I am happy that I could finally realise my dream, thanks to host.</p>
+                <h6>Shishir Gupta, Age 28 Young urban professional, Pune </h6>
+            </div>
+            <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/66c77e4621ef9ac32bdd9b5441ba7e71.png" alt="">
+                <p>I always dreamt of owning a car in which I can take my family for a drive, But, due to high           EMIs, I couldn't afford a car. With host program, I reduced my EMI by sharing the car on weekdays and           take my family out on weekends. I am happy that I could finally realise my dream, thanks to host.</p>
+                <h6> Prateek Singh, Age 22 College Student, Hyderabad </h6>
+            </div>
+        </div>
+        <div class="question-box">
+            <div><h1>Still have <br> questions?</h1></div>
+
+            <div style="width: 100%;">    <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Do I need to meet the renters of my car?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            We have installed the keyless entry devices in your car, which makes sure that you need not meet any of the renters in person, either at the start, or at the end of any booking.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How will I get Paid?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Your total earnings will be credited to your bank account every week. You can access your detailed earnings through our Zoomcar Host app.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What happens if my car gets challans or traffic fines while my car is being shared?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Zoomcar will take care of all challans incurred during car sharing.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How much will I earn?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            You will earn 60% of the booking revenue that your car earns on every booking. Your earnings will be paid to you on a weekly basis. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How is the price of my car decided?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our intelligent demand based pricing system optimizes the price of your car. We also send you suggestion for peak seasons to share your car. We ensure you get maximum earning while sharing the car.
+                            </div>
+                        </div>
+                </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Why are safety devices installed?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    These are Zoomcar's proprietary tech devices. They are installed in the car to keep track of car health and location of your car. It keeps your car safe when shared with Guests.
+                                </div>
+                            </div>
+                            </div>
+
+            
+            </div>
+            </div>
+    </div>
+    <div class="confused-box">
+        <div>
+            <h1>Still have <br> questions?</h1><br>
+            <h1 class="last">Never <br> Stop <br> Living.</h1>
+            <p>More about Zoomcar Host</p>
+        </div>
+        <div>
+            <div class="contactUS">
+                <div> <p><span> We are here to help</span><br></p>
+                    <p>Visit detailed FAQs section or contact us for more details.</p><br>
+                    <p><span>FAQ</span> <span>CONTACT US</span> </p>
+                 </div>
+                <div>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/1481c0a139f0327896e2b071d9e392bd.svg" alt="">
+                </div>    
+            
+            </div>
+
+        </div>
+    </div>
+
+    <div class="m_wrapper3">
+        <div class="modal-container3">
+            <button class="close3">&times;</button>
+            <div class="refers">
+                <h1>Refer and Earn</h1>
+                <p>You Earn ₹7,500/-</p>
+                <p>Your Friend Gets upto ₹10,000/-</p>
+                <p>YOu Both Win</p>
+                <img src="https://www.zoomcar.com/zap/subscribe/build/2dac7c3e3ed475d15bf341d377b66ed9.svg" alt="">
+                <div id="ppp">
+                    <div> <img src="https://www.zoomcar.com/zap/subscribe/build/57cc7c360d39278b0396db7f870e7cd0.png" alt=""> </div>
+                    <div> <img src="https://www.zoomcar.com/zap/subscribe/build/511323b8e90983b78fe644c8c9075cf2.png" alt=""></div>
+                    <div><img src="https://www.zoomcar.com/zap/subscribe/build/56993356b7e8876d8eadb92affa38ab7.png" alt=""></div>
+                    <div><img src="https://www.zoomcar.com/zap/subscribe/build/660be3fc6381ddb61de93a26d3720783.png" alt=""></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    
+    </div>
 </body>
 </html>
 
