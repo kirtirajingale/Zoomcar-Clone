@@ -1,0 +1,61 @@
+#box{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+.line{
+width: 70%;
+margin: auto;
+}
+.line>img{
+width: 4%;
+height: 4%;
+margin-left: 10px;
+text-align: center;
+    vertical-align: middle; 
+}
+#do{
+width:40%;
+padding: 20px;
+border-radius: 5px;
+border: 0.5px solid #e0e0e0;
+}
+span{
+font-size: 20px;
+text-align: center;
+    vertical-align: middle;
+}
+#last{
+
+width: 30%;
+margin: auto;
+margin-top: 100px;
+
+}
+#last>button{
+width: 100%;
+padding: 20px;
+background-color: #e0e0e0;
+border: none;
+border-radius: 5px;
+color: gray;
+cursor: pointer
+
+}
+#logo{
+cursor: pointer;
+}
+
+#last>button:hover{
+background-color: #18a618;
+color: white;
+
+}
+#last>button>a{
+text-decoration: none;
+}
+.line>input{
+padding: 10px;
+padding-right: 10px;
+}
