@@ -32,6 +32,10 @@
     gap: 50px;
     cursor: pointer;
 }
+.allh3 a{
+    text-decoration: none;
+    color: white;
+}
 .box{
    width: 15%;
    padding-top: 470px;
