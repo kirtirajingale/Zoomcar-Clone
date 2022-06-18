@@ -1,0 +1,290 @@
+.navbar{
+    display: flex; 
+    height: 60px;
+    width:auto;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+     justify-content: space-between;  
+    
+}
+.logo{
+    height: 40px;
+    width: 182px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+#background{
+    background-image: url(https://www.zoomcar.com/img/bg-desktop.png);
+    width: 100%;
+    height: 100%;
+    
+     background-size: cover;
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed; */
+}
+
+
+.allh3{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+.box{
+   width: 15%;
+   padding-top: 470px;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.box>#name{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 13px;
+    padding-left: 20px;
+    color: #f4f4f4;
+    display: flex;
+   
+}
+.box>#car{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    padding-left: 75px;
+    background-color:#e0e0e0;
+   border: none;
+   color: gray;
+}
+#name{
+    padding: 10px;
+}
+#card{
+    
+    width:79%;
+    height:auto;
+    /* border:1px solid red; */
+    margin: auto;
+    margin-left: 185px;
+    margin-top: 60px;
+    /* justify-content: space-around; */
+    display: flex;
+    cursor: pointer;
+}
+#card>.content{
+    width: 41%;
+    height: auto;
+     /* border: 1px solid gray;  */
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+#card>.imgbx>img{
+    padding: 0px;
+    width: 10%;
+    
+}
+#card>.contents{
+    width: 43%;
+    height: auto;
+     /* border: 1px solid red;  */
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 36px;
+}
+
+.imgbx>img{
+    width: 100%;
+    height: auto;
+}
+.imgbp>img{
+    width: 100%;
+    height: auto;
+}
+.contents>div>h3{
+    color: green;
+}
+.contents>div>button{
+    padding: 20px;
+    color:gray;
+    width: 90%;
+    font-weight: bold;
+    border: dashed;
+}
+.imgbp>img{
+    width: 80%;
+    height: auto;
+}
+.contents>div>h1{
+    width: 100%;
+    font-size: 25px;
+}
+#banner{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    /* justify-content: space-evenly; */
+    display: flex;
+    /* border: 1px solid red; */
+    /* background-color: gray; */
+}
+.tab>img{
+    width: 90%;
+    height: 270px;
+    /* border: 1px solid green; */
+    margin: auto;
+    /* justify-content: space-evenly; */
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
+.but>img{
+    width: 95%;
+    height: 270px;
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 7px;
+}
+.last{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 90px;
+    /* border: 1px solid red; */
+}
+.last>img{
+    width: 90%;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#parent{
+    background-color:#f4f4f4;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#bottom>h2{
+    display: flex;
+}
+/* .menu{
+    width: 5%;
+    margin-left: -50px;
+} */
+#final{
+    width: 10%;
+    margin-top: 10px;
+}
+span{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: auto;
+    padding-top: 30%;
+    
+}
+
+.offer{
+    margin-left: 150px;
+}
+#box{
+/* border: 1px solid red;
+height: 300px;
+width: 450px; */
+display: flex;
+margin-left: 140px;
+cursor: pointer;
+
+}
+.box1{
+/* border: 1px solid blue; */
+height:200px;
+width: 300px;
+margin: 10px;
+/* margin-top: 0px; */
+
+}
+.box1>img{
+height:200px;
+width: 300px;
+cursor: pointer;
+}
+/* .about{
+border: 1px solid teal;
+height: 40px;
+width: 100%;
+margin-top: 30px;
+text-align: center;
+background-color: rgb(250,250,250);
+cursor: pointer;
+} */
+.about>p{
+margin-top: 10px;
+color: rgb(181,181,181);
+}
+#section{
+background-color: rgb(245,245,245);
+/* margin-top: 0px; */
+margin-right: 100px;
+justify-content: center;
+
+}
+.para{
+margin-left: 140px;
+margin-top: 10px;
+font-size: 14px;
+justify-content: center;
+
+}
+.drive{
+margin-left: 140px;
+margin-top: 35px;
+
+}
+#aboutus{
+background-color:rgb(245,245,245) ;
+width: 100%;
+display: block;
+margin: auto;
+
+}
+.about>ul{
+list-style: none;
+}
+.about>ul>li{
+background-color: rgb(181,181,181) ;
+width:1330px;
+text-align: center;
+cursor: pointer;
+}
+.about>select{
+background-color: white;
+justify-content: center;
+border: none;
+padding: 10px;
+color: grey;
+
+}
+.about{
+/* justify-content: center; */
+display: block;
+/* margin: auto; */
+margin-left: 650px;
+/* border: none; */
+/* border-top: 1px solid gray; */
+/* border-bottom: 1px solid gray; */
+width: 100%;
+height: 35px;
+padding: 20px;
+}
+.box>.car{ 
+cursor: pointer;
+}
