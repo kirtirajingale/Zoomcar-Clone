@@ -16,7 +16,6 @@
 //     }
 // }
 
-
 // var forms = document.querySelector("form");
 // forms.addEventListener("click",function(event){
 //    event.preventDefault();
@@ -27,12 +26,9 @@
 // })
 
 
-
-var arr = [];
-
 document.querySelector("form").addEventListener("submit", moBile)
 function moBile(event){
 event.preventDefault();
 
-alert("Otp");
+alert("Otp has been sent to your number");
 }

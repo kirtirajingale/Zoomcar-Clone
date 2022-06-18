@@ -1,20 +1,64 @@
-
-
-
-  /*for large screen */
-
+/*for large screen */
 
     * {
+       padding: 0px;
+       box-sizing: border-box;
        text-align: center;
        background-color: whitesmoke;
        border: 0px;
+       font-family: 'IBM Plex Sans', sans-serif;
     }
+
     #log>form>p{
        color: rgb(31,31,31);
        margin-left: 10px;
        font-size: 25px;
        font-weight: bold;
        padding-bottom: 10px;
+       
+    }
+    #logo>h3{
+      position: relative;
+      left: 50px;
+      width: 30%;
+      font-size: 16px;
+      text-decoration: none;
+      color: #10a35d;
+    }
+    #logo>h3 a{
+      text-decoration: none;
+      color: #10a35d;
+    }
+    .gmail{
+      position: relative;
+      left: 65px;
+      width: 30%;
+      display: flex;
+      justify-items: center;
+      margin: auto;
+      
+    }
+    .gmail>h3{
+      font-size: 16px;
+      color: #10a35d;
+      cursor: pointer;
+    }
+    .gmail>h3+img{
+      position: relative;
+      top: 12px;
+      left: 15px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+    }
+    .gmail>img:last-child{
+      position: relative;
+      left: 15px;
+      top: 12px;
+      width: 25px;
+      height: 25px;
+      margin-left: 20px;
+      cursor: pointer;
     }
     select{
        height: 50px;
@@ -30,8 +74,32 @@
     margin-right: 50px;
     padding-top: 20px;
     margin-left: 480px;
+    } 
+    #bt{
+      display: block;
+      margin: auto;
+      border: 1px solid;
+      width: 20%;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
     }
-    #logo>h3 a{
+    #bt>a{
+      text-decoration: none;
+      background-color: transparent;
+    }
+    #bt:hover>a{
+      text-decoration: none;
+      color: white;
+    }
+    #bt:hover{
+      background-color: #10a35d;
+      color: white;
+      cursor: pointer;
+    }
+    
+
+    /* #logo>h3 a{
       text-decoration: none;
     }
     #logo>h3+h3{
@@ -43,7 +111,7 @@
        width: 15px;
        margin-right: 14px;
        margin-left: 5px;
-    }
+    } */ 
 
 
 
