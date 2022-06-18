@@ -1,0 +1,442 @@
+* {
+    font-family: IBM Plex Sans !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  .bottom-border-green {
+    height: 16px;
+    background-color: #10a310;
+  }
+  .main-section {
+    background: url(https://www.zoomcar.com/assets/component-images/ZMS-Hero-Banner.584135fee08ac6c84fee329d5fb915f4.jpg);
+    height: 98 vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: 50% 75%;
+  }
+  .mobility-service-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    position: sticky;
+    background-color: #1f1f1f;
+    top: -1;
+    z-index: 10;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .mobility-service-header > img {
+    align-self: center;
+    height: 24px;
+  }
+  .mobility-service-header > .demo-cta {
+    padding: 10px 17px 10px 18px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    /* font-stretch: normal;
+    font-style: normal; */
+    line-height: 1.43;
+    /* letter-spacing: 0.24px; */
+    text-align: center;
+    color: #1f1f1f;
+    outline: none;
+    cursor: pointer;
+  }
+  .section-data {
+    max-width: 500px;
+    margin: 152.75px;
+  }
+  .main-heading {
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  .main-sub-heading { 
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #fff;
+    padding-top: 16 px;
+  }
+  .cta-container {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-cta {
+    padding: 12px 33.7px 12px 34px;
+    border: none;
+    border-radius: 4px;
+    background-color: #10a310;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    min-width: 220px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 48px;
+  }
+  /*  */
+  /* Footer */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+    padding-bottom: 64px;
+    background-image: linear-gradient(270deg, #000, #1f1f1f);
+    /* font-family: IBM Plex Sans; */
+  }
+  .for-more-info {
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #fff;
+  }
+  .mailId {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 8px;
+  }
+  .footer-section > img {
+    align-self: center;
+    height: 24px;
+    padding-top: 80px;
+  }
+  .copyright {
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #a8a8a8;
+    padding-top: 28px;
+  }
+  
+  /* Slide-show */
+  .section-heading {
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f1f1f;
+    padding-top: 5%;
+  }
+  .tabs-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .tabs-container > .tab-item {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    color: #1f1f1f;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .tabs-wrapper > .tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+      0 2px 2px 0 rgb(0 0 0 / 14%);
+    background-color: #fff;
+    width: 80%;
+    max-width: 900px;
+    position: relative;
+    bottom: -32px;
+  }
+  .tabs-wrapper > .tabs-body {
+    padding: 72px 32px 32px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    width: 80%;
+    max-width: 940px;
+    align-self: center;
+  }
+  .main-description {
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #666;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  /* /////////////////////////////// */
+  
+  .img-slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    /* background: #1D212B; */
+  }
+  
+  .img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+  
+  .img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+  }
+  
+  .img-slider .slide img {
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+    /* height:300px; */
+  }
+  
+  .img-slider .navigation {
+    z-index: 2;
+    /* position: absolute; */
+    display: flex;
+    /* bottom: 30px;
+    left: 50%; */
+    /* transform: translateX(-50%); */
+    position: absolute;
+    bottom: -45px;
+    right: 32px;
+    padding: 4px;
+    background: #000;
+    border-radius: 12px;
+  }
+  
+  .img-slider .navigation .btn {
+    /* background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px; */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 0px;
+    /* padding: 0px;
+    width: 5px;
+    height: 5px; */
+    background-color: white;
+    width: 3px !important;
+    height: 3px !important;
+    padding: 2px !important;
+  }
+  
+  .img-slider .navigation .btn.active {
+    background: #2696e9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 820px) {
+    .img-slider {
+      width: 600px;
+      height: 375px;
+    }
+  
+    .img-slider .navigation {
+      bottom: 25px;
+    }
+  
+    .img-slider .navigation .btn {
+      width: 10px;
+      height: 10px;
+      margin: 8px;
+    }
+  }
+  
+  @media (max-width: 620px) {
+    .img-slider {
+      width: 400px;
+      height: 250px;
+    }
+  
+    .img-slider .navigation {
+      bottom: 15px;
+    }
+  
+    .img-slider .navigation .btn {
+      width: 8px;
+      height: 8px;
+      margin: 6px;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .img-slider {
+      width: 320px;
+      height: 200px;
+    }
+  
+    .img-slider .navigation {
+      bottom: 10px;
+    }
+  }
+  /* features */
+  .features {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 1.68px;
+    color: #666;
+    padding-bottom: 24px;
+    margin-top: 100px;
+  }
+  .feature-bullets-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom-padding-40 {
+    padding-bottom: 40px;
+  }
+  .bullet-point {
+    padding-right: 20px;
+  }
+  .bullet-point > .primary-title {
+    font-weight: 600;
+    color: #1f1f1f;
+    padding-bottom: 8px;
+  }
+  .secondary-sub-text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #666;
+  }
+  #green {
+    background-color: #10a310;
+    color: white;
+    border-radius: 8px;
+  }
+  /* Form */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-title {
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f1f1f;
+    max-width: 420px;
+  }
+  .section-subtext {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #666;
+    max-width: 410px;
+    padding-top: 16px;
+  }
+  .contact-form {
+    padding-top: 40px;
+  }
+  .contact-form > .form-horizontal {
+    display: flex;
+  }
+  .right-spacing {
+    margin-right: 18px;
+  }
+  .text-input-wrapper {
+    position: relative;
+  }
+  input {
+    border: none;
+  
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #666;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 4px;
+    outline: none;
+    margin: 7px 0px;
+  }
+  .input-box-container {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  textarea {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .bwhite {
+    color: white;
+  }
+  /* Banner */
+  .dashboard-banner {
+    /* position: relative; */
+    top: -50vh;
+    max-width: 960px;
+    margin: 40 auto 140 auto;
+  }
+  .dashboard-banner > img {
+    max-width: 940px;
+  }
