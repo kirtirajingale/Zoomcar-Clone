@@ -343,3 +343,7 @@ margin-bottom: 20px;
 margin-left: -100px;
 width: 100%;
 }
+button> a{
+   text-decoration: none;
+   color: gray;
+}

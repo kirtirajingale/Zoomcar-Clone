@@ -246,3 +246,8 @@ function show2() {
     </div>
   </div>`;
 }
+
+let btnss=document.querySelector("sumitform")
+btnss.addEventListener("click",function(){
+  alert("submitted")
+})

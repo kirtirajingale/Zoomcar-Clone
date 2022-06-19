@@ -105,7 +105,7 @@
     padding-bottom: 15px;
     padding-right: 13px;
     padding-left: 20px;
-    color: #f4f4f4;
+    color: #000000;
     display: flex;
    
 }
@@ -123,8 +123,8 @@
     padding: 10px;
 }
 #card{
-    
-    width:79%;
+    width: 83%;
+    line-height: 43px;
     height:auto;
     /* border:1px solid red; */
     margin: auto;
