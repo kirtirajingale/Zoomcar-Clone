@@ -100,6 +100,20 @@ function toggleMenu(){
     triggered5.addEventListener("click",function(){
         wrapper3.classList.add("active3")
      })
+        //  refer and earn side bar
+     let triggered6=document.querySelector("#trigger6")
+     triggered6.addEventListener("click",function(){
+         wrapper3.classList.add("active3")
+      })
+            // refer and earn nav bar
+      let triggered7=document.querySelector("#trigger7")
+      triggered7.addEventListener("click",function(){
+          wrapper3.classList.add("active3")
+       })
+
+
+
+
 
      let data = [
     {
@@ -341,8 +355,31 @@ console.log(data)
             btn.classList.add('active-model');
         }
 
+          // pop up model for strat button in nav bar
+
+          let triggered8=document.querySelector("#trigger8");
+          let wrapper4= document.querySelector(".m_wrapper5")
+           triggered8.addEventListener("click",function(){
+              wrapper4.classList.add("active4")
+          })
+          // close button
+          let closebtn4=document.querySelector(".close")
+          closebtn4.addEventListener("click",function(){
+              wrapper4.classList.remove("active4")
+          })
+          // close when you click anywhere on screen
+          wrapper4.addEventListener("click",function(e){
+              if(e.target!==wrapper4)return;
+              wrapper4.classList.remove("active4")
+          })
+
+            let ss=document.querySelector("#bt")
+            ss.addEventListener("click", function(){
+                alert("OTP has been sent to your registerd number")
+            })
 
 
-
-
-
+            let triggered9=document.querySelector("#trigger9");
+             triggered9.addEventListener("click",function(){
+                wrapper4.classList.add("active4")
+            })
