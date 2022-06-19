@@ -1,0 +1,345 @@
+body{
+    background-color: rgb(245,245,245);
+}
+.box1{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+    
+}
+.box6>table tr th:hover{
+      background-color:green ;
+      color: white;
+}
+h3{
+    justify-content: center;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.box5{
+   
+    width: 400px;
+    height: 600px;
+}
+
+
+th{
+    text-align: center;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background: #f5f5f5;
+
+ } 
+ table,th{ 
+     /* border: 1px solid red; */
+    border-collapse: collapse;
+    width: 250px;
+    height: 50px; 
+    margin-left: 70px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+ } 
+ .box7{
+    height: 100px;
+    width: 250px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #f0f4ff;
+color: #5160c2;
+font-size: 12px;
+padding: 12px 16px;
+border-radius: 4px;
+margin-bottom: 24px;
+ }
+
+ .box15{
+    height: 50px;
+    width: 400px;
+    border:1px solid green;
+    margin:auto;
+    display: flex;
+    margin-left: 450px;
+   
+ }
+ .box4{
+    height: 50px;
+    width: 400px;
+    border:1px solid grey;
+    margin:auto;
+    display: flex;
+    margin-left: 450px;
+   
+ }
+ .box9{
+    height: 50px;
+    width: 400px;
+    border:1px solid green;
+    margin:auto;
+    margin-top: 50px;
+    padding: 5px;
+    
+ }
+ 
+ #box10>h3{
+    margin-left: 0px;
+    margin-top: 30px;
+    
+ }
+ #box10>p{
+    font-size: 14px;
+ }
+ #box11{
+         height: 150px;
+         border: 1px solid yellowgreen;
+         width: 800px;
+         margin-top: 60px;
+         margin-left: 450px;
+         box-sizing: inherit;
+         background-color: white;
+padding: 25px 54px;
+border-radius: 4px;
+border: 1px solid #e0e0e0;
+box-shadow: 0px 0px 1px 1px #e0e0e0;
+font-size: 12px;
+
+ }
+ #box11>img{
+    height: 150px;
+    width:100px;
+    -webkit-font-smoothing: antialiased;
+    margin-left: -56px;
+    margin-top: -120px;
+
+ }
+
+#box12{
+height: 150px;
+         border: 1px solid yellowgreen;
+         width: 800px;
+         margin-top: 60px;
+         margin-left: 450px;
+         box-sizing: inherit;
+         background-color: white;
+padding: 25px 54px;
+border-radius: 4px;
+border: 1px solid #e0e0e0;
+box-shadow: 0px 0px 1px 1px #e0e0e0;
+font-size: 12px;
+}
+
+#box13{
+height: 150px;
+         border: 1px solid yellowgreen;
+         width: 800px;
+         margin-top: 60px;
+         margin-left: 450px;
+         box-sizing: inherit;
+         background-color: white;
+padding: 25px 54px;
+border-radius: 4px;
+border: 1px solid #e0e0e0;
+box-shadow: 0px 0px 1px 1px #e0e0e0;
+font-size: 12px;
+}
+.car-location{
+margin-left:70px;
+font-size: 15px;
+color:#666666;
+/* font: 11px "IBM Plex Sans"; */
+padding: 2px 4px;
+background-color: #f5f5f5;
+
+}
+.car-location>h3{
+margin: auto;
+}
+#box11>p{
+margin-left: 70px;
+/* font-size: 14px; */
+color: #a8a8a8;
+font: 14px "IBM Plex Sans";
+}
+.car-Item{
+margin-left: 80px;
+height: 20px;
+width: 20px;
+}
+#container{
+display: flex;
+}
+.box2{
+width: 60%;
+margin: auto;
+/* border: 1px solid ; */
+height: 600px;
+}
+.maruti{
+width: 80%;
+display: flex;
+margin: auto;
+justify-content: space-evenly;
+
+}
+.maruti>div{
+width: 60%;
+margin-left: 25px;
+height: 40px;
+}
+.maruti>div>input{
+width: 120%;
+height: 40px;
+
+}
+.memories{
+width: 95%;
+/* border: 1px solid ; */
+margin: 30px 0px 0px 0px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.memories>p:first-child{
+font-weight: bold;
+
+}
+.memories>p:last-child{
+color: grey;
+}
+#main-box{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: auto;
+gap: 20px;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+margin-top: 40px;
+}
+#main-box>div{
+/* border: 1px solid red; */
+}
+#main-box>div:first-child>img{
+width: 100%;
+}
+/* #main-box>div:nth-child(2)>img{
+width:8%;
+display: block;
+} */
+#main-box>div:nth-child(2){
+padding: 10px;
+}
+.star{
+display: flex;
+width: 90%;
+justify-content: space-between;
+align-items: center;
+margin-top: -25px;
+padding: 10px;
+font-size: 14px;
+}
+.star>img{
+width: 8%;
+height: 8%;
+}
+#main-box>div:nth-child(3)>p{
+color:grey;
+background-color: rgb(245,245,245);
+padding: 15px;
+}
+.price>div>h1{
+text-align: center;
+}
+.price>div:nth-child(2)>button{
+display: block;
+margin: auto;
+width: 60%;
+padding: 10px;
+border:1px solid green;
+background-color: white;
+border-radius: 5px;
+
+}
+.price>div:nth-child(2)>button:hover {
+background-color: green;
+color: white;
+
+
+}
+.not-find>img{
+margin-left: 450px;
+}
+.Notifiy{
+width: 250%;
+margin-left: 20px;
+}
+.Notifiy>h2{
+font-size: 15px;
+margin-top: 50px;
+
+}
+.Notifiy>h1{
+color: green;
+cursor: pointer; 
+}
+.father{
+display: flex;
+}
+.main-wraper{
+position: fixed;
+left: 0;
+top: 0;
+background: rgba(0,0,0,0.6);
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+opacity: 0;
+justify-content: center;
+pointer-events: none;
+transition: all .3s ease-in-out;
+/* border: 1px solid black; */
+}
+.active{
+opacity: 1;
+pointer-events: auto;
+
+}
+.wrapper{
+background: white;
+width: 350px;
+max-width: 90%;
+padding: 20px;
+border-radius: 8px;
+position: relative;
+border: 1px solid black;
+text-align: center;
+
+}
+.father{
+margin: auto;
+width: 350px;
+justify-content: center;
+display: flex;
+margin-bottom: 20px;
+}
+.End{
+position: absolute;
+right: 5px;
+top: -35px;
+width: 28px;
+border-radius: 23px;
+border: none;
+font-size: 18px;
+cursor: pointer;
+}
+.active-model{
+background-color: green;
+color: white;
+}
+.car-name{
+margin-bottom: 20px;
+}
+.maruti>div>input{
+margin-left: -100px;
+width: 100%;
+}
