@@ -6,19 +6,19 @@
 
 <h3>Features:-</h3>
 
- ~ Home Page 
+ - Home Page 
   
- ~ Navbar & Footer
+ - Navbar & Footer
 
- ~ FAQ Page with functionality
+ - FAQ Page with functionality
 
- ~ Menu Bar Functionality
+ - Menu Bar Functionality
 
- ~ Signup Page
+ - Signup Page
  
- ~ Login Page
+ - Login Page
     
 
 <h3>Tech Stack:-</h3>  
 
-~ HTML | CSS | Javascript
+- HTML | CSS | Javascript
