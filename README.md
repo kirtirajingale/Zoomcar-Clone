@@ -10,8 +10,6 @@
 
 ~ FAQ Page with functionality
 
-~ Filtering & Sorting with functionality
-
 ~ Menu Bar Functionality
 
 ~ Signup Page
