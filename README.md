@@ -5,18 +5,19 @@
 <p>Zoomcar, Inc. provides passenger vehicle rental services. The Company offers car and cycle rental services. Zoomcar also develops application software for car booking and managing solutions. Zoomcar serves customers in India.</p>
 
 <h3>Features:-</h3>
+<ul>
+    <li>Home Page</li>
+  
+    <li>Navbar & Footer</li>
 
-~ Home Page
+    <li>FAQ Page with functionality</li>
 
-~ FAQ Page with functionality
+    <li>Menu Bar Functionality</li>
 
-~ Menu Bar Functionality
+    <li>Signup Page</li>
 
-~ Signup Page
-
-~ Login Page 
-
-~ Navbar & Footer 
+    <li>Login Page</li>
+</ul>
 
 <h3>Tech Stack:-</h3>  
 
