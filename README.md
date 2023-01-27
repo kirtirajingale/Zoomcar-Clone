@@ -25,12 +25,7 @@ Zoomcar, Inc. provides passenger vehicle rental services. The Company offers car
  - Login Page
 
 # Tech Stacks Used
-- React JS
-- Redux
-- Axios
-- Deployed API ( On Vercel )
-- Firebase
-- Chakra UI
+
 - Javascript
 - CSS
 - HTML
