@@ -7,21 +7,13 @@ Zoomcar, Inc. provides passenger vehicle rental services. The Company offers car
 <h3>Pages & Features:-</h3>
 
  - Home Page 
-  
  - Navbar & Footer
- 
  - Side Menu 
-
  - Become Host Page
- 
  - Contact Us Page
-
  - FAQ Page
- 
  - Contact Us Page
-
  - Signup Page
- 
  - Login Page
 
 # Tech Stacks Used
@@ -30,7 +22,8 @@ Zoomcar, Inc. provides passenger vehicle rental services. The Company offers car
 - CSS
 - HTML
 
-## It is a Collaborative Project built by 5 developers in 5 days. 
+## Collaborative Project built by 5 developers in 5 days
+
  * Kirtiraj Ingale
  * Pradeep Kase
  * Kiran Gangurde
@@ -38,7 +31,9 @@ Zoomcar, Inc. provides passenger vehicle rental services. The Company offers car
  * Utkarsh Mishra
  
 # Overview
+
 # Home Page
+
 ![zoomcar-img](https://user-images.githubusercontent.com/101358022/205242774-901460d3-c1b3-4630-a260-2b5436d8e52a.png)
 
 # Login Page
