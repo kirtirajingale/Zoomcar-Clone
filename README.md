@@ -34,27 +34,27 @@ Zoomcar provides passenger vehicle rental services. They offers car and cycle re
  
 # Overview
 
-# Home Page
+## Home Page
 
 ![zoomcar-img](https://user-images.githubusercontent.com/101358022/205242774-901460d3-c1b3-4630-a260-2b5436d8e52a.png)
 
-# Login Page
+## Login Page
 
 ![zoomLogin](https://user-images.githubusercontent.com/101358022/215020715-f8ba4bad-95f7-4a82-8448-a2e0ac1c6bfd.png)
 
-# Become A Host Page
+## Become A Host Page
 
 ![Screenshot_20230127_113027](https://user-images.githubusercontent.com/101358022/215020666-3346bfe9-1858-47e3-af5a-4779af261b49.png)
 
-# Side Menu
+## Side Menu
 
 ![sidemenu](https://user-images.githubusercontent.com/101358022/215020773-609b2246-e118-41fd-ad45-5def8885eee7.png)
 
-# FAQ Page
+## FAQ Page
 ![Faq page](https://user-images.githubusercontent.com/101358022/215020798-03e991b6-e01b-4fef-a240-da442a843816.png)
 
 
-# Contact Us Page
+## Contact Us Page
     
 ![contactus page](https://user-images.githubusercontent.com/101358022/215020835-796aef25-b1af-491a-9e68-1586de148613.png)
 
