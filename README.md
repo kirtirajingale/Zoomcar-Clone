@@ -5,7 +5,7 @@ Zoomcar provides passenger vehicle rental services. They offers car and cycle re
 
 # [Netlify Deployed Link](dreamy-llama-b91312.netlify.app/)
 
-<h3>Pages & Features:-</h3>
+## Pages & Features:-
 
  - Home Page 
  - Navbar & Footer
