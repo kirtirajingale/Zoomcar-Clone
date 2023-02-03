@@ -16,7 +16,7 @@ Zoomcar provides passenger vehicle rental services. They offers car and cycle re
  - Signup Page
  - Login Page
 
-# Tech Stacks Used
+## Tech Stacks Used
 
 - Javascript
 - Bootstrap
