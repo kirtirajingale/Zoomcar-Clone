@@ -1,6 +1,6 @@
 <h1>Zoomcar - Clone</h1>
 
-Zoomcar provides passenger vehicle rental services. It also develops application software for car booking and managing solutions.
+Zoomcar provides passenger vehicle rental services. It also develops application software for car booking and managing solutions
 
 ## [Netlify Deployed Link](dreamy-llama-b91312.netlify.app/)
 
