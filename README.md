@@ -4,7 +4,7 @@ Zoomcar provides passenger vehicle rental services. It also develops application
 
 ## [Netlify Deployed Link](dreamy-llama-b91312.netlify.app/)
 
-## Pages & Features:-
+## Pages & Features
 
  - Home Page 
  - Navbar & Footer
